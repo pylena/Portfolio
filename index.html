@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-black text-white scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lena | Web Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="font-sans leading-relaxed relative overflow-x-hidden">
+
+  <!-- Global Background Pattern -->
+  <div class="fixed inset-0 z-0 pointer-events-none">
+    <div class="absolute bottom-0 right-[-20%] top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div>
+  </div>
+
+  <!-- Page Content -->
+  <main class="relative z-10">
+
+    <!-- Hero -->
+    <section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+      <h1 class="text-5xl sm:text-6xl font-bold text-white mb-4">Lina Alsehli</h1>
+      <p class="text-xl text-slate-300 mb-10">A Backend Developer & Data Enthusiast</p>
+
+      <!-- Social Links -->
+      <div class="flex flex-wrap gap-4 justify-center mb-8">
+        <a href="https://www.linkedin.com/in/lina-alsehli-09448032a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="flex items-center gap-2 px-4 py-2 bg-gray-900/50 hover:shadow-[0_0_15px_#ff00b6] rounded-lg text-white text-sm transition hover:scale-105">
+          <i class="fab fa-linkedin-in"></i> LinkedIn
+        </a>
+        <a href="mailto:linaalsehli@outlook.com" class="flex items-center gap-2 px-4 py-2 bg-gray-900/50 hover:shadow-[0_0_15px_#ff00b6] rounded-lg text-white text-sm transition hover:scale-105">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+        <a href="https://github.com/pylena" target="_blank"   class="flex items-center gap-2 px-4 py-2 bg-gray-900/50 hover:shadow-[0_0_15px_#ff00b6] rounded-lg text-white text-sm transition hover:scale-105">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+
+      <!-- Download CV -->
+      <a href="/assets/Lena_CV.pdf" download
+       class="inline-block px-6 py-3 bg-pink-500 hover:bg-pink-700 hover:shadow-[0_0_15px_#ff00b6] text-white font-medium rounded-lg transition hover:scale-105">
+      Download CV →
+    </a>
+    </section>
+
+    <!-- About -->
+    <section class="py-20 px-6 max-w-4xl mx-auto" id="about">
+      <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+      <p class="text-gray-300 text-lg">
+        A recent Computer Science graduate, specializing in Data Science and Backend Development, with a passion for everything in between. I’m always eager to take on new challenges, refine my skills, and continue growing in the field.
+    </section>
+
+    <!-- Projects -->
+    <section class="py-20 px-6" id="projects">
+      <h2 class="text-3xl font-semibold mb-12 text-center">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+
+        <!-- Project Card (Glass Effect) -->
+        <div class="backdrop-blur-md bg-white/5 border border-white/10 rounded-2xl p-6 shadow-lg hover:shadow-pink-500/30 transition hover:scale-[1.01] duration-300">
+          <h3 class="text-xl font-semibold mb-2 text-white">Majd </h3>
+          <p class="text-gray-300 mb-4">A real-world project developed for Taibah University, designed to provide alumni with a platform to connect and explore career opportunities. Built using .NET MVC and Entity Framework.</p>
+          <a href="https://drive.google.com/drive/folders/1mkgCi6vtcSD7BTH6owa6XL3bvJ6KhqKG" target="_blank"   class="text-pink-400 hover:underline">View Project →</a>
+        </div>
+
+        <div class="backdrop-blur-md bg-white/5 border border-white/10 rounded-2xl p-6 shadow-lg hover:shadow-pink-500/30 transition hover:scale-[1.01] duration-300">
+          <h3 class="text-xl font-semibold mb-2 text-white">سالفة قهوة</h3>
+          <p class="text-gray-300 mb-4">Analyzed cafe sales data to uncover popular item combos and optimize offers. Built a recommendation system to suggest menu items based on customer preferences.</p>
+          <a href="https://cafe-recommendation.streamlit.app/" target="_blank" class="text-pink-400 hover:underline">View Project →</a>
+        </div>
+
+        <div class="backdrop-blur-md bg-white/5 border border-white/10 rounded-2xl p-6 shadow-lg hover:shadow-pink-500/30 transition hover:scale-[1.01] duration-300">
+          <h3 class="text-xl font-semibold mb-2 text-white">Movie Recommender System</h3>
+          <p class="text-gray-300 mb-4">An interactive Streamlit web app that provides personalized movie recommendations. It analyzes user preferences to deliver accurate and engaging suggestions using unsupervised learning techniques. </p>
+          <a href="https://movies-predictor.streamlit.app/" target="_blank" class="text-pink-400 hover:underline">View Project →</a>
+        </div>
+
+        <div class="backdrop-blur-md bg-white/5 border border-white/10 rounded-2xl p-6 shadow-lg hover:shadow-pink-500/30 transition hover:scale-[1.01] duration-300">
+          <h3 class="text-xl font-semibold mb-2 text-white">MediTrust</h3>
+          <p class="text-gray-300 mb-4">A health system built with Angular and .NET, offering role-based access and features like patient management, appointment scheduling, and notifications.</p>
+          <a href="https://health-informatics-syste-14be0.web.app/" target="_blank" class="text-pink-400 hover:underline">View Project →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 text-center text-sm text-gray-500">
+      © 2025 Lina Alsehli // All rights reserved.
+    </footer>
+
+  </main>
+</body>
+</html>
